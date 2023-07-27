@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: hsl(233, 47%, 7%);
+    height: 100vh;
+    color: white;
+    
+}
+.main{
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+   height: 450px;
+    display: flex;
+   
+   margin-bottom: 100px;
+    box-shadow: 1px 2px 5px 5px white;
+}
+.content-image{
+    background-color: hsl(277, 64%, 61%);
+    background-image: url('images/image-header-desktop.jpg');
+    background-blend-mode:overlay;
+    background-size: cover;
+    flex: 1;
+}
+
+.content-text{
+   flex:1;
+   background-color: hsl(244, 38%, 16%);
+   padding-right: 20px;
+   padding-left: 30px;
+   width: 50%;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+    
+}
+.insights{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.headlines{
+    margin-bottom: 30px;
+}
